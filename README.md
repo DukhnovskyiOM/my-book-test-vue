@@ -1,6 +1,6 @@
 # test-notebook
 
-[DEMO](https://654e1b0b63fc9372cd42b6ab--scintillating-gecko-9897ee.netlify.app/#/).
+[DEMO](https://scintillating-gecko-9897ee.netlify.app/#/).
 
 ## Тестовое задание:
 
