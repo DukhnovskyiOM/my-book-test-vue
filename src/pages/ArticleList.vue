@@ -176,11 +176,26 @@ const pageSelection = (n) => {
     .item {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        user-select: none;
         gap: 20px;
         width: 578px;
         padding: 70px 30px;
         background-color: white;
         border-radius: 10px;
+
+        &:hover {
+            background-color: #050F28;
+
+            h1 {
+                color: white;
+            }
+
+            p {
+                color: #F6F6F6;
+            }
+        }
 
         @media only screen and (min-width: 375px) and (max-width: 1024px) {
             width: 453px;
